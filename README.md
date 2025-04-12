@@ -24,6 +24,6 @@
 <h2>Installation</h2>
 <ol type="1">
   <li>Clone the repository:<br>
-    git clone https://github.com/jhansiboini/Animeverse.git cd Animeverse</li>
-  <li>Open the index.html file in your web browser to use the Animeverse website.</li>
+    git clone https://github.com/jhansiboini/SkyCast.git cd SkyCast</li>
+  <li>Open the index.html file in your web browser to use the SkyCast website.</li>
 </ol>
