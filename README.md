@@ -19,7 +19,7 @@
 </ol>
 
 <h2>Screenshot of the Webpage</h2>
-<img style="width:500px;height:300px" src="https://github.com/jhansiboini/Animeverse/blob/main/Screenshot.png">
+<img style="width:500px;height:300px" src="https://github.com/jhansiboini/SkyCast/blob/main/screenshot.png">
 
 <h2>Installation</h2>
 <ol type="1">
