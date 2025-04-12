@@ -1,0 +1,119 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url("seaView.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .weather-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    width: 1000px;
+    height: 500px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    padding: 0.5rem;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  input:focus {
+  outline: none;
+  border: none;
+}
+  
+  button {
+    padding: 0.5rem 1rem;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff33;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffffff55;
+  }
+
+  .location {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .temp {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+  .col img{
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+/* Weather Forecast Container */
+.forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.forecast-day {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+}
