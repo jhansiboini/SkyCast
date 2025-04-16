@@ -1,6 +1,8 @@
 const WeatherDetails = document.querySelector('.weather-details');
 const apiKey = "14ab2c0b077279901afa6e0c9e1f8cac";
 
+getWeather("Hyderabad");
+
 async function getWeather() {
   const city = document.getElementById("cityInput").value.trim();
   if (!city) return alert("Please enter a city!");
