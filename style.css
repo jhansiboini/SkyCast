@@ -28,7 +28,7 @@ body {
   
   input {
     padding: 0.5rem;
-    width: 50%;
+    width: 30%;
     border: none;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -90,18 +90,6 @@ body {
 
   .col img{
     width: 30px;
-    margin-right: 10px;
-  }
-
-  .image-container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .image-container img {
-    display: block;
-    width: 100%;
-    height: auto;
   }
   
 /* Weather Forecast Container */
@@ -117,3 +105,61 @@ body {
   border-radius: 12px;
   text-align: center;
 }
+@media screen and (max-width: 745px) {
+.forecast{
+  font-size: 10px;
+}
+
+}
+
+@media screen and (max-width: 570px) {
+  body{
+    height:auto;
+  }
+  .weather-container {
+    width: 90%;
+    height: auto;
+    margin: 20px;
+    font-size: 15px;
+  }
+  
+  .forecast {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .forecast-day {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 400px) {
+  body{
+    height:auto;
+  }
+  .weather-container {
+    width: 90%;
+    height: auto;
+    margin: 20px;
+    font-size: 15px;
+  }
+  input{
+    width: 150px;
+  }
+
+  .forecast {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .forecast-day {
+    width: 80%;
+    flex-direction: column;
+  }
+}
+
